@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="character-sheet.css">
+    <script src="character-sheet.js" defer></script>
+    <title>Dungeons & Dragons 5th Edition Character Sheet</title>
+</head>
+<body>
+    <!-- A section for players to insert/write their basic starting info -->
+    <section id="user-info">
+        <div id="player-name"></div>
+        <div id="char-name"></div>
+        <div id="char-race"></div>
+        <div id="char-class"></div>
+        <div id="char-background"></div>
+        <div id="char-alignment"></div>
+        <div id="char-lv"></div>
+        <div id="char-experience"></div>
+    </section>
+    <!-- A nav bar to shift between different content for optimal organization -->
+    <nav id="nav-bar">
+        <button id="overview-bttn">Overview</button>
+        <button id="equip-bttn">Equipment</button>
+        <button id="spells-bttn">Spells</button>
+        <button id="feats-bttn">Features</button>
+        <button id="description-bttn">Description</button>
+        <button id="notes-bttn">Notes</button>
+    </nav>
+    <section id="stats">
+        <div id="strength">Strength
+            <div class="score">
+                <div class="modifier"></div>
+            <div class="skills">
+                <div id="strength-save"></div>
+                <div id="athletics"></div>
+            </div>
+        </div>
+        <div id="dexterity">Dexterity
+            <div class="score">
+                <div class="modifier"></div>
+            <div class="skills">
+                <div id="dexterity-save"></div>
+                <div id="acrobatics"></div>
+                <div id="sleight of hand"></div>
+                <div id="stealth"></div>
+            </div>
+        </div>
+        <div id="constitution">Constitution
+            <div class="score">
+                <div class="modifier"></div>
+            <div class="skills"></div>
+            <div id="constitution-save"></div>
+        </div>
+        <div id="intelligence">Intelligence
+            <div class="score">
+                <div class="modifier"></div>
+            <div class="skills">
+                <div id="intelligence-save"></div>
+                <div id="arcana"></div>
+                <div id="history"></div>
+                <div id="investigation"></div>
+                <div id="nature"></div>
+                <div id="religion"></div>
+            </div>
+        </div>
+        <div id="wisdom">Wisdom
+            <div class="score">
+                <div class="modifier"></div>
+            <div class="skills">
+                <div id="wisdom-save"></div>
+                <div id="animal handling"></div>
+                <div id="insight"></div>
+                <div id="medicine"></div>
+                <div id="perception"></div>
+                <div id="survival"></div>
+            </div>
+        </div>
+        <div id="charisma">Charisma
+            <div class="score">
+                <div class="modifier"></div>
+            </div>
+            <div class="skills">
+                <div id="charisma-save"></div>
+                <div id="deception"></div>
+                <div id="intimidation"></div>
+                <div id="performance"></div>
+                <div id="persuasion"></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
